@@ -1,0 +1,95 @@
+.secondary_bg{
+    background-color: rgb(3, 5, 37);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+}
+.secondary_bg_lg{
+    background-color: rgb(3, 5, 37);
+}
+.
+.home{
+    height: 30rem;
+}
+.home >div:nth-child(1){
+    background-color: rgb(1, 3, 26);
+}
+.absolutenavmenu{
+    top: 9.5rem;
+    left: 10%;
+    position: absolute;
+    z-index: 10;
+    
+}
+.img1{
+    position: absolute;
+    right: -2rem;
+    width: 37rem;
+    bottom: 2rem;
+    /* background-image: url('./image/slider_1.png');
+    background-size: cover; */
+}
+.slider{
+    width: 100%;
+    object-fit: contain;
+}
+.moveing{
+    position: absolute;
+    left:-1.5rem;
+    top: 5rem;
+}
+.moveing >div{
+    margin: 2.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moveing_left .line:nth-child(1){
+    transform:rotate(-45deg) translate(-3px ,1px);
+    -webkit-transform:rotate(-45deg) translate(-3px ,1px);
+    -moz-transform:rotate(-45deg) translate(-3px ,1px);
+    -ms-transform:rotate(-45deg) translate(-3px ,1px);
+    -o-transform:rotate(-45deg) translate(-3px ,1px);
+}
+.moveing_left .line:nth-child(2){
+    transform:rotate(45deg) translate(6px ,8px);
+    -webkit-transform:rotate(45deg) translate(6px ,8px);
+    -moz-transform:rotate(45deg) translate(6px ,8px);
+    -ms-transform:rotate(45deg) translate(6px ,8px);
+    -o-transform:rotate(45deg) translate(6px ,8px);
+} 
+
+.moveing_right .line:nth-child(1){
+    transform:rotate(45deg) translate(0px ,-1px);
+    -webkit-transform:rotate(45deg) translate(0px ,-1px);
+    -moz-transform:rotate(45deg) translate(0px ,-1px);
+    -ms-transform:rotate(45deg) translate(0px ,-1px);
+    -o-transform:rotate(45deg) translate(0px ,-1px);
+}
+.moveing_right .line:nth-child(2){
+    transform:rotate(143deg) translate(4px ,-6px);
+    -webkit-transform:rotate(143deg) translate(4px ,-6px);
+    -moz-transform:rotate(143deg) translate(4px ,-6px);
+    -ms-transform:rotate(143deg) translate(4px ,-6px);
+    -o-transform:rotate(143deg) translate(4px ,-6px);
+} 
+
+.moveing_left:hover .line{
+    background-color: white;
+}
+.moveing_left:hover{
+    background-color: red;
+}
+
+.search div:nth-child(2){
+    transform: rotate(313deg) translate(19px, 10px);
+    -webkit-transform: rotate(313deg) translate(19px, 10px);
+    -moz-transform: rotate(313deg) translate(19px, 10px);
+    -ms-transform: rotate(313deg) translate(19px, 10px);
+    -o-transform: rotate(313deg) translate(19px, 10px);
+}
+
+/* footer */
+
+.footer{
+    background-color: #0f0824;
+}
